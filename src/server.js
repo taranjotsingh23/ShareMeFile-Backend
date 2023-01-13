@@ -8,7 +8,8 @@ connectDb(); // db
 const cors = require('cors')
 // cors
 const corsOptions = {
-    origin: process.env.ALLOWED_CLIENTS.split(',')
+    // origin: process.env.ALLOWED_CLIENTS.split(',')
+    origin: 'https://share-me-file.netlify.app'
 }
 const app = express();
 // middleware
